@@ -1,0 +1,64 @@
+.card-lateral {
+    /* width: 485px; */
+    width: 20rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 30px 50px;
+    /* position: fixed; */
+    /* right: 80%; */
+    color: #dbdbdb;
+    margin-top: 150px;
+}
+
+.titulo-card { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.titulo-card p {
+    font-weight: 600;
+    text-align: end;
+}
+
+.card-lateral img {
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+
+.card-infos {
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.icones-card {
+    width: 2rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 30px auto 10px auto;
+}
+
+.card-btn {
+    /* display: flex;
+    justify-content: center; */
+    padding: 10px 20px;
+    background-color: rgb(7, 186, 117);
+    border: 2px solid rgb(7, 186, 117);
+    border-radius: 15px;
+    color: black;
+    font-weight: 700;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.card-btn:hover {
+    background-color: transparent;
+    color: rgb(7, 186, 117);
+}
